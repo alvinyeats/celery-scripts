@@ -7,7 +7,7 @@
 #CELERYD_CHDIR="/path/to/my_application"
 
 # How to call celeryd-multi
-#CELERYD_MULTI="$CELERYD_CHDIR/bin/celeryd-multi"
+#CELERYD_MULTI="celery multi"
 
 # Extra arguments
 #CELERYD_OPTS="--app=my_application.path.to.worker --time-limit=300 --concurrency=8 --loglevel=DEBUG"
