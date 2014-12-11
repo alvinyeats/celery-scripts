@@ -154,7 +154,7 @@ export PATH="${PATH:+$PATH:}/usr/sbin:/sbin"
 
 _get_pid_files() {
     [[ ! -d "$CELERYD_PID_DIR" ]] && return
-    echo $(ls -1 "$CELERYD_PID_DIR"/$prog-*.pid 2> /dev/null)
+    echo $(ls -1 "$CELERYD_PID_DIR"/*.pid 2> /dev/null)
 }
 
 stop() {
