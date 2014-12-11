@@ -8,7 +8,7 @@
 #CELERYD_CHDIR="/path/to/my_application"
 
 # Absolute or relative path to the celery program
-#CELERY_BIN="/usr/local/bin/celery"
+#CELERY_BIN=`which celery`
 
 # App instance to use (value for --app argument).
 #CELERY_APP="my_application"
